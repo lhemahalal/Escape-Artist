@@ -1,0 +1,9 @@
+title: Light
+tags: 
+colorID: 0
+position:
+---
+Player: Let there be light. 
+<<set $hasLight to true>> 
+
+===

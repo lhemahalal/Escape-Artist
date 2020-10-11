@@ -1,0 +1,24 @@
+title: Canvas1
+tags: 
+colorID: 0
+position:
+---
+<<if !$visitPainting>>
+    Player: God, life freaking sucks. 
+    <<if !$hasLight>>
+    Player: I need an escape. Lemme grab my blacklight.
+    <<set $visitPainting to true>>
+    <<else>>
+    Player: Let's get into it. 
+    <<set $paintingTime to true>>
+    <<endif>>
+<<else>>
+    <<if $hasLight>>
+        Player: Let's get into it.
+        <<set $paintingTime to true>> 
+    <<else>>
+        Player: Need my light first.
+    <<endif>>
+<<endif>>
+
+===

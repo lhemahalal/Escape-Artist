@@ -1,0 +1,11 @@
+title: Canvas2
+tags: 
+colorID: 0
+position: 
+---
+
+Player: Well that was fun.
+Player: Dunno what drugs I took to get here but I guess it's time to go back to being a degenerate.
+<<set $donePainting to true>>
+
+===
